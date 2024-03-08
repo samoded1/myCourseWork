@@ -10,17 +10,74 @@
     <link href ="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <h1 class="visually-hidden">Страничка "Мои проекты"</h1>
     <header>
-        <nav class="top-nav">
             <ul class="nav-item">
-                <li class="logo"><a><h1><strong>Cool<br>Company</strong></h1></a></li>
-                <span class="function-buttons">
-                    <li><button>Мои проекты</button></li>
-                    <li><button>Настройки</button></li>
-                    <li><button>Контроль версий</button></li>
-                </span>
+                <li class="logo"><a href="#">Cool<br>Company</a></li>
+                <li class="function-buttons">
+                    <button>Мои проекты</button>
+                    <button>Настройки</button>
+                    <button>Контроль версий</button>
+                </li>
             </ul>
-        </nav>
+            <ul class="user-interface">
+                    <li><button class="user-icon"><img src="../../assets/icons/notification-svgrepo-com 1.svg"></button></li>
+                    <li><button class="user-icon"><img src="../../assets/icons/mail-svgrepo-com 1.svg"></button></li>
+                    <li class="user-name">Иван Иванов</li>
+                    <li><a href="#"><img src="../../assets/images/user-image.png" alt="User picture" class="user-picture"></a></li>
+            </ul>
     </header>
+    
+    <main>
+        <div class="my-projects">        
+        <div class="user">
+            <img src="../../assets/images/user-image.png" alt="User picture">
+            <h2>Иван Иванов</h2>
+            <p>Senior Python Developer</p>
+        </div>
+        <ul class="project-search">
+            <li><input type="text"></li>
+            <li><button>Сортировать по языку</button></li>
+            <li><button>Новый проект</button></li>
+        </ul>
+        <ul class="ptoject-list">
+               <li class="project">
+                    <h2>CodeVault</h2>
+                    <img src="../../assets/icons/python-color.svg">
+                    <p>Python</p>
+                    <button class="project-button">Редактировать<img src="../../assets/icons/project-button-icon.svg"></button>
+                    <img src="../../assets/icons/Line 1.svg" alt="just a line">
+               </li>
+               <li class="project">
+                <h2>CodeVault</h2>
+                <img src="../../assets/icons/python-color.svg">
+                <p>Python</p>
+                <button class="project-button">Редактировать<img src="../../assets/icons/project-button-icon.svg"></button>
+                <img src="../../assets/icons/Line 1.svg" alt="just a line">
+           </li>
+           <li class="project">
+            <h2>CodeVault</h2>
+            <img src="../../assets/icons/python-color.svg">
+            <p>Python</p>
+            <button class="project-button">Редактировать<img src="../../assets/icons/project-button-icon.svg"></button>
+            <img src="../../assets/icons/Line 1.svg" alt="just a line">
+       </li>
+       <li class="project">
+        <h2>CodeVault</h2>
+        <img src="../../assets/icons/python-color.svg">
+        <p>Python</p>
+        <button class="project-button">Редактировать<img src="../../assets/icons/project-button-icon.svg"></button>
+        <img src="../../assets/icons/Line 1.svg" alt="just a line">
+   </li>
+   <li class="project">
+    <h2>CodeVault</h2>
+    <img src="../../assets/icons/python-color.svg">
+    <p>Python</p>
+    <button class="project-button">Редактировать<img src="../../assets/icons/project-button-icon.svg"></button>
+    <img src="../../assets/icons/Line 1.svg" alt="just a line">
+</li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
