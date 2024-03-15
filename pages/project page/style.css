@@ -1,0 +1,83 @@
+.project-page-header {
+    display: flex;
+    gap:40px;
+}
+.project-page-header h2 {
+    font-size: 30px;
+    font-weight: 750;
+}
+.line {
+    width: 90%;
+    margin-left: 75px;
+    margin-top:2px;
+}
+.project-page-header .user-picture {
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+} 
+.project-page-header-buttons {
+    display: flex;
+    gap:25px;
+    margin-top:1%
+}
+.branches-button  {
+    margin-right: 42%;
+    margin-left: 5%;
+
+}
+.project-page-header-buttons button {
+    width: 85px;
+    height: 25px;
+    font-size: 10px;
+    background-color: transparent;
+}
+.project-page-header-buttons .branches-button { 
+    border: 1px solid; /* граница */
+    background-color: #EDDADA; /* прозрачный фон */
+}
+.file-list h3 {
+    border: 1px solid;
+    width: 92%;
+    height: 30px;
+    margin-left: 40px;
+}
+.file-list img {
+    width: 92%;
+    margin-left: 40px;
+}
+.file-list-item {
+    margin-left:40px;
+}
+.project-description h3 {
+    height: 30px;
+    width: 90%;
+    border: 1px solid;
+    margin-left: 80px;
+    margin-bottom:0px;
+}
+.project-description p {
+    width: 90%;
+    border: 1px solid;
+    margin-left: 80px;
+    margin-top:0px;
+}
+.comment-text {
+    display: flex;
+    flex-direction: column;
+}
+.comment-text h4 {
+    margin-bottom: -5px;
+}
+.user-comment{
+    display: flex;
+}
+.user-comment img{
+    margin-right: 20px;
+    width: 60px;
+    height: 65px;
+    margin-top: 10px
+}
+.comments {
+    margin-left: 45px;
+}
