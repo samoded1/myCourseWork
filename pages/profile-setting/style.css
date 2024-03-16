@@ -1,0 +1,50 @@
+.user-information {
+    display: grid;
+    grid-template-columns: auto 1fr; /* автоматическая ширина для картинки, остальное занимает оставшееся пространство */
+    gap: 10px; /* промежуток между элементами */
+    align-items: center; /* выравнивание по вертикали */
+}
+
+.user-picture {
+    max-width: 100px; /* максимальная ширина для картинки */
+}
+
+.user-details {
+    display: grid;
+    gap: 5px; /* промежуток между элементами внутри блока user-details */
+}
+
+/* Дополнительные стили, если нужно выровнять текст по имени */
+.user-details h3 {
+    margin-bottom: 0; /* убираем нижний отступ у заголовка */
+}
+
+.user-details p{
+    margin-top:2px;
+}
+.user-settings-navigation-list button{
+    width: 162px;
+    height: 22px;
+    background-color: transparent;
+    font-size: 10px;
+}
+.user-settings-navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap:3px
+}
+.user-settings-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+main {
+    display: flex;
+}
+.oneone{
+    display: flex;
+    flex-direction: column;
+}
+.strong-text {
+    font-weight: 600;
+}
