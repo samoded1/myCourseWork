@@ -41,6 +41,17 @@ main{
     margin-right: 70px;
     margin-bottom: 50px;
 }
+button {
+    height: 44px;
+    width: 198px;
+    border: 1px solid;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #8B0606;
+}
 .logo {
     font-size: 20px;
     font-weight: 600;
