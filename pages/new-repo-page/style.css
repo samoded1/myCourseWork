@@ -1,0 +1,14 @@
+.repo-header {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: auto;
+}

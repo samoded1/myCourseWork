@@ -29,28 +29,27 @@
             </ul>
     </header>
     <main>
-        <h3>Создать новый проект</h3>
-        <img src="../../assets/icons/Line 1.svg">
-        <form>
-            <p>Владелец</p>
-            <select>
-                <option>Иван Иванов</option>
-                <option>Олег Булкин</option>
-            </select>
-        </form>
-        <form>
-            <p>Название проекта</p>
-            <input type="text">
-        </form>
-        <form>
-            <p><input type="checkbox"> Публичный</p>
-            <p><input type="checkbox"> Приватный</p>
+        <div class="main-content">
+            <h3>Создать новый проект</h3>
             <img src="../../assets/icons/Line 1.svg">
-        </form>
-        <form>
-            <p><input type="checkbox"> Добавить ReadMe файл</p>
-        </form>
-        <button type="submit" class="create-button">Создать репозиторий</button>
+            <section class="repo-header">
+                <form>
+                    <p>Владелец</p>
+                    <select>
+                        <option>Иван Иванов</option>
+                        <option>Олег Булкин</option>
+                    </select>
+                </form>
+                <form>
+                    <p>Название проекта</p>
+                    <input type="text" value="CodeVault">
+                </form>
+            </section>
+            <form>
+                <p><input type="checkbox" checked> Добавить ReadMe файл</p>
+            </form>
+            <button type="submit" class="create-button"><a href="../project page/index.html">Создать репозиторий</a></button>
+        </div>
     </main>
 </body>
 <script src="script.js"></script>
